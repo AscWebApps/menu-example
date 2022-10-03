@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
   get 'home/index'
+  post 'home/add', as: :add
+  post 'home/remove', as: :remove
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
   # Defines the root path route ("/")
